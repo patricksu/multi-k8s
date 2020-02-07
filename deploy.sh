@@ -11,6 +11,6 @@ docker push mightycontainer002/multi-worker:latest
 docker push mightycontainer002/multi-worker:$SHA
 
 kubectl apply -f k8s
-kubectl set image deployments/server-deployment server=mightcontainer002/multi-server:$SHA
-kubectl set image deployments/client-deployment client=mightcontainer002/multi-client:$SHA
-kubectl set image deployments/worker-deployment worker=mightcontainer002/multi-worker:$SHA
+kubectl set image deployments/server-deployment server=mightycontainer002/multi-server:$SHA
+kubectl set image deployments/client-deployment client=mightycontainer002/multi-client:$SHA
+kubectl set image deployments/worker-deployment worker=mightycontainer002/multi-worker:$SHA
