@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: client
-          image: mightycontainer002/multi-worker:latest
+          image: mightycontainer002/multi-worker
           env:
             - name: REDIS_HOST
               value: redis-cluster-ip-service
